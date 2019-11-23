@@ -1,0 +1,116 @@
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width:1000px;
+  margin: 0 auto 40px auto;
+}
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header-navigation {
+  width:100%;
+  background-color: #696969;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display:block;
+  content: "";
+}
+
+.header-navigation li {
+  float:left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.main:after {
+  border-bottom:  2px solid #d3d3d3;
+}
+
+.left-contents {
+  width:600px;
+  margin-right: 10px;
+  float: left;
+}
+
+.right-contents {
+  width:390px;
+  float: left;
+}
+
+.card-contents:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.card-contents {
+  padding: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.thumbnail {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+}
+
+.thumbnail-right {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+}
+
+.copywrite {
+  margin:20px;
+}
+
+.text-title {
+  border-bottom: 2px  solid #d3d3d3;
+}
+.copy {
+  color: #777;
+  text-align: center;
+}
+
+.main:after {
+   clear: both;
+  display: block;
+  content: " ";
+}
